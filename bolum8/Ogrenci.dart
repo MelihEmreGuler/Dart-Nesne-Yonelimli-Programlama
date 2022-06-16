@@ -19,7 +19,7 @@ class Ogrenci {
 }
 
 void ogrenciListesiniDoldur(List<Ogrenci> tumOgrenciler) {
-  //parametrenin ismi ayni olmak zorunda degil ama karisikligi onlemek ici ayni yaptim.
+  //parametrenin ismi ayni olmak zorunda degil ama karisikligi onlemek icin ayni yaptim.
   for (int i = 0; i < tumOgrenciler.length; i++) {
     tumOgrenciler[i] =
         Ogrenci(id: Random().nextInt(50000), not: Random().nextInt(100));
